@@ -9,8 +9,8 @@
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'methsinduyapa2000@gmail.com';
 
-  if( file_exists($validate = '../assets/vendor/php-email-form/validate.js' )) {
-    include( $validate );
+  if( file_exists($php_email_form = '../vendor/php-email-form/php-email-form.php' )) {
+    include( $php_email_form );
   } else {
     die( 'Unable to load the "PHP Email Form" Library!');
   }
